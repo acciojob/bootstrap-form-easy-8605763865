@@ -6,7 +6,24 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body id="container">
+	<h1 id="header"> Internship form</h1>
+	<form>
+		<label for="first-name-input"> First Name  <input id="first-name-input" type="text" required="yes"></label>
+	<label for="last-name-input"> Last Name <input id="last-name-input" type="text" required="yes"></label>
+		<label for="email-input"> Email Address  <input id="email-input" type="email" required="yes"></label>
+		<label for="college-input"> College <input id="college-input" type="text" required="yes" > </label>
+		<label for="graduation-year-input"> Graduation Year</label><select id="graduation-year-input"> 
+		<option> 2020</option>
+			<option> 2021</option>
+			<option> 2022</option>
+			<option> 2023</option>
+		</select>
+		</label>
+		<label for="roll-no-input"> Roll No. <input type="number" id="roll-no-input" required="yes"></label>
+		<input id="conditions-checkbox" type="checkbox">Agree to terms and conditions
+		<button type="submit"> Submit Form</button>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>

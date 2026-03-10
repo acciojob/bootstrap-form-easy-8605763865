@@ -1,2 +1,6 @@
-
-/* Your CSS Code here. */
+h1{
+	text-align:center;
+}
+#container{
+	border:2px grey
+}
